@@ -63,6 +63,10 @@ class Contract:
     def validate_book(book):# module Test Contract class validates book of type Book 
         if not isinstance(book, Book):
             raise TypeError("Book must be an instance of Book class")
+        
+
+#FAILED module Test Contract class has method contracts_by_date() that sorts all contracts by date - assert [<many_to_man...d4f0190>, ...] == [<many_to_man...75c05d4e7070>]
+#================================================ 1 failed, 13 passed in 0.20s ================================================
 
     @staticmethod
     def validate_date(date):# module Test Contract class validates date of type str 
